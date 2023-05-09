@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dj_id: 1
+  group_name: MyString
+  uid: MyString
+
+two:
+  dj_id: 1
+  group_name: MyString
+  uid: MyString
