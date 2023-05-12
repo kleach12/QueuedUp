@@ -1,4 +1,63 @@
+#home{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 #app-name{
   font-family: 'Inter', sans-serif;
-  color: #ffffff;
+  color: white;
+  font-size: 50px;
+}
+
+#bg-home{
+  background-color: #ffffff;
+  width: 70%;
+  height: 30%;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+
+}
+
+.flex-column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-normal{
+  display: flex;
+}
+
+#listener-login{
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  padding: 10px 53px;
+  /* color: #000000; */
+}
+
+#dj-login{
+  /* background-color: white; */
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  padding: 10px 54px;
+  /* color: #2308c7; */
+  z-index: 1;
+}
+
+.selected{
+  background-color: white;
+  color: #2308c7;
+  z-index: 1;
+}
+
+.not-selected{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
 }

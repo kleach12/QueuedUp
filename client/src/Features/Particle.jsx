@@ -18,7 +18,7 @@ export default function Particle() {
       options={{
         background: {
           color: {
-            value: "#150578", // change to dark purple
+            value: "#2308c7", // change to dark purple
           },
         },
         particles: {
@@ -30,7 +30,8 @@ export default function Particle() {
             },
           },
           color: {
-            value: "#ffffff", // change to white
+            value: "#150578", // change to white
+            // value: "#e01fdf",
           },
           shape: {
             type: "circle", // change to circle
