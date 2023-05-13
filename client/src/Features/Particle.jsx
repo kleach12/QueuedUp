@@ -18,7 +18,7 @@ export default function Particle() {
       options={{
         background: {
           color: {
-            value: "#2308c7", // change to dark purple
+            value: "#000000", // change to dark purple
           },
         },
         particles: {
